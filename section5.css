@@ -1,0 +1,88 @@
+/*================================SECTION 5================================================*/
+.section5{
+    min-height: 150vh;
+    background-color: #111111;
+    text-align:center;
+    justify-content:center;
+    
+}
+.section5-contents{
+    max-width: 1500px;
+    padding-top:100px;
+}
+#big2{
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:15px; 
+    color:white;
+}
+#grey2{
+    text-decoration: underline;
+    text-decoration-color: #D4AF37;   
+    text-decoration-thickness: 1px;   
+    text-underline-offset: 15px;  
+    color:#757373ce;
+}
+.register{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+
+    background: #141414;
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 40px;
+
+    width: 70%;
+    max-width: 1000px;
+    margin: 100px auto 0;
+    text-align:left;
+}
+.inputs{
+    margin-top:10px;
+    background: #141414;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+    width:400px;
+    color: white;
+}
+.infos{
+    color:#757373ce;
+    
+}
+.message-input{
+    margin-top:10px;
+    background: #5e5e5e;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+    width:400px;
+    height: 180px;
+    padding: 20px;
+    background: #141414;
+    border: 1px solid #333;
+    border-radius: 20px;
+    color: white;
+    resize: none;
+    width: 100%;
+
+}
+.message{
+    grid-column: 1 / -1;
+
+}
+.book-tour-button{
+    width:920px;
+    height: 60px;
+    background-color:rgba(233, 173, 9, 0.734);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+    border: 1px solid #333;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.book-tour-button:hover{
+    background-color:rgba(233, 173, 9, 0.765);
+}
