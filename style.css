@@ -260,7 +260,7 @@ html{
     margin-top:20px;
 }
 .section2{
-    min-height:100vh;
+    min-height:150vh;
     width:100%;
     background-color: #1A1C1B;
 }
@@ -297,7 +297,7 @@ html{
 
 
 .section2{
-    height: 150vh;
+    height: 100vh;
     background: #1A1C1B;
 }
 .section2-content{
@@ -865,5 +865,5 @@ html{
 .comments{
     margin-top:80px;
     display:flex;
-    margin-left:70px;
+    
 }

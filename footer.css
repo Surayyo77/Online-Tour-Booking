@@ -1,17 +1,15 @@
 .footer{
-    
-    min-height: auto;
+    padding: 10px 0 30px;
     background-color: black;
-    text-align:center;
-    justify-content:center;
-    overflow:hidden;
-    
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
 }
 .footer-contents{
     display:flex;
     max-width: 1300px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
     justify-content: space-between;
     align-items: flex-start;
     gap: 60px;
@@ -28,10 +26,9 @@
 }
 .info1{
     text-align:left;
-    
-    
     flex-direction:column;
     display:flex;
+    padding-left:45px;
 }
 #li{
     color:#333;
@@ -134,10 +131,7 @@
 }
 
 .info3{
-    
-    
     flex:1;
-
     flex-direction:column;
     display:flex;
     color:#333;
