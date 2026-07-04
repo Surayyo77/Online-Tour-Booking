@@ -4,6 +4,7 @@
     background-color: black;
     text-align:center;
     justify-content:center;
+    overflow:hidden;
     
 }
 .footer-contents{
@@ -184,8 +185,8 @@
 .extra{
     color:#333;
     display:flex;
-    justify-content:right;
-    margin:65px;
+    justify-content:flex-end;
+    margin:65px 65px 0 65px;
 }
 #pp{
     padding:10px;
